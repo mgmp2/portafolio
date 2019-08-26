@@ -15,13 +15,13 @@
         #links-profesional.col.s12.l6
           .col.s4.m4
             a(href='https://github.com/mgmp2', target='_blank')
-              img.responsive-img(src='assets/images/icons/github.png', alt='github')
+              img.responsive-img(src='@/assets/images/icons/github.png', alt='github')
           .col.s4.m4.center-align
             a(href='https://www.linkedin.com/in/miriam-mendoza-pilco/', target='_blank')
-              img.responsive-img(src='assets/images/icons/linkedin_miriam_mendoza.png', alt='curriculum vitae')
+              img.responsive-img(src='@/assets/images/icons/linkedin_miriam_mendoza.png', alt='curriculum vitae')
           .col.s4.m4.right-align
             a(href='assets/docs/cv_miriam_mendoza.pdf', target='_blank')
-              img.responsive-img(src='assets/images/icons/cv.png', alt='curriculum vitae')
+              img.responsive-img(src='@/assets/images/icons/cv.png', alt='curriculum vitae')
         .col.s12.l6
           .col.s12.l5
             h6.weight-700 Escr&iacute;beme aqu&iacute;:

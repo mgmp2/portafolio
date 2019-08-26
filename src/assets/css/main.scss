@@ -126,6 +126,11 @@ hr {
 
 
 // GENERAL
+#app {
+  // height: 100vh;
+  background: #0000ff42;
+  overflow: hidden;
+}
 #banner, #sobre-mi, #habilidades, #proyectos,
 #contacto {
   padding-top: 64px;
@@ -310,122 +315,9 @@ p {
 }
 footer {
   height: 7vh;
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  h1 {
-    font-size: 6vw;
-  }
-  h2 {
-    font-size: 5.5vw;
-  }
-  h3 {
-    font-size: 5vw;
-    text-transform: uppercase;
-  }
-  p {
-      font-size: 2vw;
-  }
-    #write-here {
-        margin-bottom: 28px;
-    }
-    /*BANNER*/
-    #sobre-mi, #contacto {
-      height: auto;
-    }
-    /* Sobre mí */
-    #sobre-mi {
-      a img {
-        width: 8vw;
-      }
-    }
-    /*CONTACTO*/
-    #contacto [class*="s6"] img {
-        height: 182px;
-    }
-
-    // MODAL
-    #proy-1, #proy-2, #proy-3,
-    #proy-4, #proy-5 {
-      width: 46vw!important;
-    }
+  background-color: #e3e3e3;
+  color: #000;
 }
 
-/* Medium devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
 
-
-      h2 {
-        font-size: 3vw;
-      }
-      h3 {
-            font-size: 2.5vw;
-      }
-      p {
-        font-size: 21px;
-      }
-      /*MENU*/
-  nav {
-    width: 100%;
-  img {
-    margin-left: 21px;
-  }
-  }
-  /*BANNER*/
-  #banner {
-    background-position-y: -35px!important;
-    align-items: initial;
-    left: 21px;
-  }
-  #banner .card {
-    width: 60%;
-    padding: 21px;
-    left: 21px;
-  }
-  /*SOBRE MI*/
-  #sobre-mi {
-    p {
-      margin-bottom: 1.25vw;
-      line-height: 1.5;
-    }
-    a img {
-      width: 5vw;
-    }
-  }
-  .line-height {
-        line-height: 45px;
-  }
-  // .line-bottom {
-  //   // border-bottom: 1px solid #b9abab;
-  //   padding-bottom: 27px!important;
-  //   padding-top: 0;
-  // }
-  /*CONTACTO*/
-
-  #contacto [class*="s4"] img {
-    height: 82px;
-    border: 2px solid #fff;
-    padding: 14px;
-    border-radius: 14px;
-    margin-bottom: 28px;
-  }
-  // MODAL
-  #proy-1, #proy-2, #proy-3,
-  #proy-4, #proy-5 {
-    width: 28vw!important;
-  }
-}
-@media (min-width: 1224px) {
-    nav {
-        background-color: rgba(255, 255, 255, 0);
-    }
-    /* PROYECTO */
-    .square {
-        height: 32vh;
-    }
-    /* CONTACTO */
-    #links-profesional img {
-        margin-right: 1vw;
-    }
-
-}
+@import "responsiveMain.scss"

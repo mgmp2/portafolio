@@ -8,7 +8,7 @@
           hr
         .row
           .col.s12.m5.center-align
-            img.responsive-img(src='@/assets/images/miriam_mendoza_laboratoria.jpg', alt='coder Miriam Mendoza perfil')
+            img.responsive-img.w-75(src='@/assets/images/miriam_mendoza_laboratoria.jpg', alt='coder Miriam Mendoza perfil')
           .col.s12.m7.center-on-small-only
             h4.w-700 Miriam Mendoza
             h5 Front-End Developer Jr. &amp; Estudiante de Ingenier&iacute;a de Sistemas

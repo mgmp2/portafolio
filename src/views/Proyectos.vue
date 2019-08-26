@@ -2,12 +2,12 @@
   // PROYECTOS
   section#proyectos
     .container
-      .row.center-align
+      b-row.center-align
         h3 Mis proyectos
         hr
-      .row
+      b-row
         // PRIMER PROYECTO
-        .col.s12.m6.l6
+        b-col(cols="12" md="6" lg="6")
           .square.overflow.center-align.card.hoverable.card
             h4.center-align Yape
             p.black-text.square__txt.square__txt Maquetado de la aplicaci&oacute;n realizado por el banco BCP
@@ -20,7 +20,7 @@
               img(src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fyape-sprint5.herokuapp.com%2F&chs=180x180&choe=UTF-8&chld=L|2', alt='yape proyecto código Qr Miriam Mendoza')
               a(href='https://yape-sprint5.herokuapp.com/', rel='nofollow')
         // SEGUNDO PROYECTO
-        .col.s12.m6.l6
+        b-col(cols="12" md="6" lg="6")
           .square.overflow.center-align.card.hoverable.card
             h4.center-align Smash Faces
             p.black-text.square__txt Adivina los nombres de las coders de Laboratoria
@@ -33,7 +33,7 @@
               a(rel='nofollow', href='https://mgmp2.github.io/smashFaces/', border='0')
                 img(src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fmgmp2.github.io%2FsmashFaces%2F&chs=180x180&choe=UTF-8&chld=L|2', alt='smash faces proyecto código Qr Miriam Mendoza')
         // TERCER PROYECTO
-        .col.s12.m6.l6
+        b-col(cols="12" md="6" lg="6")
           .square.overflow.center-align.card.hoverable.card
             h4.center-align Slide Coder
             p.black-text.square__txt Publica como en las redes sociales
@@ -46,7 +46,7 @@
               a(rel='nofollow', href='https://mgmp2.github.io/Slide-coder/', border='0')
               img(src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fmgmp2.github.io%2FSlide-coder%2F&chs=180x180&choe=UTF-8&chld=L|2', alt='slide coder código qr Miriam Mendoza')
         // CUARTO PROYECTO
-        .col.s12.m6.l6
+        b-col(cols="12" md="6" lg="6")
           .square.overflow.center-align.card.hoverable.card
             h4.center-align Lab Car
             p.black-text.square__txt Replica de la p&aacute;gina de Lab Car
@@ -59,7 +59,7 @@
               a(rel='nofollow', href='https://mgmp2.github.io/GroupImportant/', border='0')
                 img(src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fmgmp2.github.io%2FGroupImportant%2F&chs=180x180&choe=UTF-8&chld=L|2', alt='lab car proyecto grupal código qr Miriam Mendoza')
         // QUINTO PROYECTO
-        .col.s12.m6.l6
+        b-col(cols="12" md="6" lg="6")
           .square.overflow.center-align.card.hoverable.card
             h4.center-align Portafolio
             p.black-text.square__txt Un dise&ntilde;o diferente para tu portafolio
