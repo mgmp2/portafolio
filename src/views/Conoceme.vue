@@ -15,7 +15,7 @@
             p
               | Soy egresada de 
               a.laboratoria(href='http://laboratoria.la', target='_blank') Laboratoria Per&uacute;
-              |  y actualmente estudiante de Ingenier&iacute;a de Sistemas. Apasionada por las nuevas tecnolog&iacute;as y herramientas web y m&oacute;viles que contribuyan a una &oacute;ptima experiencia para el cliente. Adem&aacute;s, soy perseverante, solidaria, creativa, proactiva y deseosa de seguir aprediendo m&aacute;s, a fin de siempre agregar valor a mi trabajo.
+              |  y actualmente egresada en Ingenier&iacute;a de Sistemas. Apasionada por las nuevas tecnolog&iacute;as y herramientas web y m&oacute;viles que contribuyan a una &oacute;ptima experiencia para el cliente. Adem&aacute;s, soy perseverante, solidaria, creativa, proactiva y deseosa de seguir aprediendo m&aacute;s, a fin de siempre agregar valor a mi trabajo.
     // Reconocimientos
     section#reconocimiento
       .container
