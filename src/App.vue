@@ -11,6 +11,12 @@
   </div>
 </template>
 
+<script>
+import '@/assets/css/main.scss'
+export default {
+}
+</script>
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
