@@ -8,6 +8,11 @@
       <router-link to="/contactame">CONTÁCTAME</router-link>
     </div>
     <router-view/>
+    <footer class="cyan lighten-2 flex">
+      <div class="container center-align">
+        <strong>Copyright &copy; 2019 · Miriam Mendoza Pilco ·</strong>
+      </div>
+    </footer>
   </div>
 </template>
 
